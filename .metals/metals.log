@@ -1,0 +1,43 @@
+2020.07.02 11:49:49 INFO  started: Metals version 0.9.1 in workspace '/home/eric/ProgrammingScala/scalaSelfProjects'
+2020.07.02 11:49:53 INFO  time: initialize in 4.59s
+2020.07.02 11:49:56 INFO  no build target: using presentation compiler with only scala-library
+2020.07.02 11:50:04 WARN  no build target for: /home/eric/ProgrammingScala/scalaSelfProjects/src/main/scala/example/Functions.scala
+Jul 02, 2020 11:50:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Jul 02, 2020 11:50:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2020.07.02 11:50:04 WARN  no build target for: /home/eric/ProgrammingScala/scalaSelfProjects/src/main/scala/example/Hello.scala
+2020.07.02 11:50:04 INFO  running '/usr/lib/jvm/java-11-openjdk-amd64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals12332060013013382256/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.07.02 11:50:10 WARN  no build target for: /home/eric/ProgrammingScala/scalaSelfProjects/src/test/scala/example/FunctionTest.scala
+2020.07.02 11:50:13 WARN  no build target for: /home/eric/ProgrammingScala/scalaSelfProjects/src/test/scala/example/HelloSpec.scala
+2020.07.02 11:50:17 INFO  [info] Loading settings for project scalaselfprojects-build from metals.sbt ...
+2020.07.02 11:50:18 INFO  [info] Loading project definition from /home/eric/ProgrammingScala/scalaSelfProjects/project
+2020.07.02 11:50:21 INFO  [info] Loading settings for project root from build.sbt ...
+2020.07.02 11:50:21 INFO  [info] Set current project to Function (in build file:/home/eric/ProgrammingScala/scalaSelfProjects/)
+2020.07.02 11:50:23 INFO  [success] Generated .bloop/root-test.json
+2020.07.02 11:50:23 INFO  [success] Generated .bloop/root.json
+2020.07.02 11:50:23 INFO  [success] Total time: 1 s, completed 2 Jul 2020, 11:50:23 AM
+2020.07.02 11:50:23 INFO  build tool exit: 0
+2020.07.02 11:50:23 INFO  time: ran 'sbt bloopInstall' in 19s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher14260703781343049690/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/home/eric/ProgrammingScala/scalaSelfProjects/.bloop'...
+[0m[32m[D][0m Loading project from '/home/eric/ProgrammingScala/scalaSelfProjects/.bloop/root-test.json'
+[0m[32m[D][0m Loading project from '/home/eric/ProgrammingScala/scalaSelfProjects/.bloop/root.json'
+[0m[32m[D][0m Loading previous analysis for 'root-test' from '/home/eric/ProgrammingScala/scalaSelfProjects/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Loading previous analysis for 'root' from '/home/eric/ProgrammingScala/scalaSelfProjects/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher14260703781343049690/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher14260703781343049690/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.07.02 11:50:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/eric/.cache/metals/bsp.trace.json
+2020.07.02 11:50:23 INFO  time: connected to build server in 0.31s
+2020.07.02 11:50:23 INFO  Connected to Build server v1.4.3
+2020.07.02 11:50:25 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.07.02 11:50:27 INFO  time: indexed workspace in 3.3s
+2020.07.02 11:50:27 INFO  compiling root (2 scala sources)
+2020.07.02 11:50:30 INFO  time: compiled root in 2.66s
+2020.07.02 11:50:30 INFO  compiling root-test (2 scala sources)
+2020.07.02 11:50:32 WARN  1 deprecation (since 3.1.0); re-run with -deprecation for details
+2020.07.02 11:50:32 INFO  time: compiled root-test in 1.65s

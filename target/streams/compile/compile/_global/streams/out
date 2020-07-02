@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/eric/ProgrammingScala/src/main/scala/example/Functions.scala:31:26: not found: value o[0m
+[0m[[0m[31merror[0m] [0m[0m        require(amount > o)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
